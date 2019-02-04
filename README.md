@@ -7,3 +7,7 @@ data under 25000 to be predicted only using the positive data.
     
 Solution: 
 Seperate the training data into two, and predict the same data twice using two seperate sets
+
+
+TODO: Add clustering, hierarchy
+Implement watson API
