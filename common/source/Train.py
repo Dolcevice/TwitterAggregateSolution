@@ -7,9 +7,9 @@ import pickle
 import os
 
 train_data_directory = r'C:\Users\Dolcevice\Documents\GitHub\TwitterAggregateSolution\common\Jupyter\Train_Data\aclImdb' \
-                    r'\movie_data\full_train.txt'
+                       r'\movie_data\full_train.txt'
 test_data_directory = r'C:\Users\Dolcevice\Documents\GitHub\TwitterAggregateSolution\common\Jupyter\Train_Data\aclImdb' \
-                    r'\movie_data\full_test.txt'
+                      r'\movie_data\full_test.txt'
 # Create containers
 train_container = []
 test_container = []

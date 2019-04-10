@@ -12,7 +12,7 @@ from sklearn.feature_extraction.text import CountVectorizer as CV
 # For OS related operations
 import os
 
-from Access import Tokens
+from .Access import Tokens
 
 # Authorization Keys - Dolcevice
 API_KEY = Tokens.API_KEY

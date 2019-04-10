@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="623b3ba3-9bd4-4ba8-a550-5c72db04fe3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Dolcevice.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/source/Train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/source/TwitterAggregateSolution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Jupyter/TwitterAggregateSolution-LogReg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/common/Jupyter/TwitterAggregateSolution-LogReg.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Jupyter/tempOut.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/Jupyter/tempOut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$ckSMU2019 - Yun Ho Jung - Presentation.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Dolcevice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Dolcevice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/source/Access.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/source/Access.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/source/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/source/Train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/source/TwitterAggregateSolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/source/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/source/TwitterAggregateSolution.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/source/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-              <folding>
-                <element signature="e#18#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1248">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/source/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/source/Access.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="144">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/source/Train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -67,8 +67,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/source/Train.py" />
         <option value="$PROJECT_DIR$/common/source/TwitterAggregateSolution.py" />
+        <option value="$PROJECT_DIR$/common/source/__init__.py" />
+        <option value="$PROJECT_DIR$/common/source/main.py" />
+        <option value="$PROJECT_DIR$/common/source/Access.py" />
+        <option value="$PROJECT_DIR$/common/source/Train.py" />
       </list>
     </option>
   </component>
@@ -81,31 +84,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TwitterAggregateSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TwitterAggregateSolution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TwitterAggregateSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TwitterAggregateSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TwitterAggregateSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TwitterAggregateSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -139,16 +118,15 @@
       <workItem from="1553093533346" duration="1399000" />
       <workItem from="1553190364352" duration="2871000" />
       <workItem from="1553268844245" duration="4017000" />
-      <workItem from="1554914994101" duration="53000" />
+      <workItem from="1554914994101" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8340000" />
+    <option name="totallyTimeSpent" value="9610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5243488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -179,30 +157,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/source/TwitterAggregateSolution.py">
+    <entry file="file://$PROJECT_DIR$/common/source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/source/Access.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/source/Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/source/Access.py">
+    <entry file="file://$PROJECT_DIR$/common/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="-1248">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
