@@ -1,0 +1,7 @@
+# Authorization Keys - Dolcevice
+class Tokens:
+    API_KEY = 'kEgIQct9vhC3VI81CzA018LCP'
+    API_KEY_SECRET = 'aWZB24sCd4YmCYJT8EstnPLIJemRinWYQ3SHcR8dnETJlp0RLJ'
+
+    ACCESS_TOKEN = '817167849357615104-sTE4VvShmAbxyVNOFqdngfu8pl1onRT'
+    ACCESS_TOKEN_SECRET = '14MlBjPpNUy1IjFpv7RwksgJTOae6DVlac8fNbduY9S9E'
