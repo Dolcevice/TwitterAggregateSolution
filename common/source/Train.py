@@ -2,6 +2,7 @@ from sklearn.feature_extraction.text import CountVectorizer as CV
 from sklearn.linear_model import LogisticRegression as Reg
 from sklearn.metrics import accuracy_score as acc
 from sklearn.model_selection import train_test_split as train
+from sklearn.pipeline import make_pipeline
 import re
 import pickle
 import os
@@ -44,9 +45,9 @@ X_train, X_val, y_train, y_val = train(X, target, train_size=0.75)
 # C = 0.05 was the optimal constant
 
 # Create a final model
-final_model = Reg(C=0.05, n_jobs=-1)
-final_model.fit(X, target)
+model_pipeline = make_pipeline(Reg(C=0.05, n_jobs=2))
+model_pipeline.fit(X, target)
 
 # Save final model
 os.remove('logreg_model.sav')
-pickle.dump(final_model, open('logreg_model.sav', 'wb'))
+pickle.dump(model_pipeline, open('logreg_model.sav', 'wb'))

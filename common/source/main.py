@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer as CV
 
 # For OS related operations
 import os
+from sys import argv
 
 from .Access import Tokens
 
@@ -21,7 +22,6 @@ ACCESS_TOKEN = Tokens.ACCESS_TOKEN
 ACCESS_TOKEN_SECRET = Tokens.ACCESS_TOKEN_SECRET
 # Variables when acquiring the data from Twitter API
 MAX_TWEETS = 1000
-s_query = 'Cats'
 # Create API instance
 auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
@@ -36,7 +36,7 @@ def clean_twitter_dataframe(frame):
     frame.replace('tco', '', regex=True, inplace=True)
     frame.replace('https:.{13}', '', regex=True, inplace=True)
     frame.replace('https:', '', regex=True, inplace=True)
-    frame.replace('[,\.!?/|_]', '', regex=True, inplace=True)
+    frame.replace('[,.!?/|_]', '', regex=True, inplace=True)
     frame.replace(r'RT.*:', '', regex=True, inplace=True)
     frame.replace(r'\b\w{1,2}\b', '', regex=True, inplace=True)
     frame.replace('@.* \s', '', regex=True, inplace=True)
@@ -52,7 +52,7 @@ def drop_dfcolumns(frame):
     frame.drop_duplicates(subset='text', keep='first', inplace=True)
 
 
-if __name__ == "__main__":
+def main(s_query):
     # Create a search cursor
     search_cursor = tweepy.Cursor(api.search, q=s_query, lang='en').items(MAX_TWEETS)
 
@@ -90,3 +90,7 @@ if __name__ == "__main__":
     result_average = round(float(result_average), 3)
 
     print('Analysis of %s : %s find it favorable', (s_query, result_average))
+
+
+if __name__ == "__main__":
+    main(argv[1])
