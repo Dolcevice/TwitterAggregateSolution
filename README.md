@@ -1,10 +1,2 @@
-# TwitterAggregate
-
-Sentiment analysis pipeline using python
-
--TODO : Add a hierarchy training model
-
-
-
-    
+# WIP 2929
 
